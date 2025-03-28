@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently Asked Questions - Brew Haven Coffee">
+    <title>FAQs - Brew Haven Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Same Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Brew Haven Coffee Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- FAQ Hero -->
+    <section class="faq-hero">
+        <div class="hero-content">
+            <h1>Common Questions</h1>
+            <p>Quick answers to your coffee queries</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false" aria-controls="answer1">
+                    Where do you source your coffee beans?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer" id="answer1">
+                    <p>We partner directly with sustainable farms in Colombia, Ethiopia, and Brazil. All our beans are ethically sourced and certified organic.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false" aria-controls="answer2">
+                    Do you offer dairy-free alternatives?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer" id="answer2">
+                    <p>Yes! We offer oat, almond, soy, and coconut milk alternatives at no extra charge.</p>
+                </div>
+            </div>
+
+            <!-- Add more FAQ items following same structure -->
+        </div>
+    </section>
+
+    <!-- Audio Section -->
+    <section class="audio-section">
+        <h2>Listen to Our Coffee Story</h2>
+        <div class="audio-container">
+            <audio controls>
+                <source src="coffee-podcast.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+
+    <!-- Same Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Brew Haven Coffee. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
