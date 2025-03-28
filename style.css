@@ -292,7 +292,7 @@ body {
 .about-hero {
     height: 60vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('../images/about-hero.jpg') center/cover;
+                url('about-hero.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,7 +389,7 @@ body {
 .contact-hero {
     height: 50vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('../images/contact-hero.jpg') center/cover;
+                url('contact-hero.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -517,7 +517,7 @@ select:invalid {
 .faq-hero {
     height: 50vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('../images/faq-hero.jpg') center/cover;
+                url('faq-hero.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
